@@ -14,7 +14,7 @@ std::vector<Point> Parser::parseData() {
     }
     
     int N;
-    file >> N;
+    file >> N; // Чтение числа вершин
     for (int i = 0; i < N; ++i) {
         Point p;
         file >> p.x >> p.y;
